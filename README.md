@@ -71,6 +71,15 @@ To inject faults automatically, run on any VM:
 ```console
 python fault_injection.py &
 ```
+**Remember to have both vms.txt and services.txt in the same folder as the scripts.**
+
+**Remember to have both services (or whatever services you set in the services.txt file) running when starting the scripts.**
+
+**If you decide to use the services from this setup, remember to set SELINUX permissive.**
+
+```console
+setenforce 0
+```
 
 **For more details, check the documentation file (.PDF) in the repository.**
 
