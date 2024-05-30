@@ -1,0 +1,2 @@
+httpd /etc/httpd/conf/httpd.conf /usr/lib/systemd/system/httpd.service
+nginx /etc/nginx/nginx.conf /usr/lib/systemd/system/nginx.service
